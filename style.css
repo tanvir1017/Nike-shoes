@@ -1,0 +1,62 @@
+/* @font-collection  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* @font-collection  */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #FFF9F4;
+}
+.logo img{
+    Width :291.11px;
+    Height: 39.27px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+}
+.head-image{
+    width: 407px;
+}
+.head-teaser {
+    width: 377px;
+    color: #4d4d4d;
+    font-weight: 400;
+}
+.my-btn{
+    padding: 10px 35px;
+    font-size: 18px ;
+    background-image: linear-gradient(to right, #3D4FF3, #3543BC);
+}
+.formal-shoes
+{
+    margin-top: 48px;
+}
+
+.section-title{
+    font-size: 38px;
+    margin-bottom: 28px;
+}
+.my-card
+{
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 18px;
+}
+.card-img
+{
+    background-color: #e6e6e6d7;
+    width: 312px;
+    height: 312px;
+    margin: 0 auto;
+    border-radius: 18px;
+    position: relative;
+}
+.card-img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 236px;
+    height: auto;
+}
