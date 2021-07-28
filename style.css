@@ -88,6 +88,9 @@ h1, h2, h3, h4, h5, h6{
     display: block;
 }
 @media screen and (max-width:668px) {
+    header{
+        width: 100%;
+    }
     .horizental-card{
         width: 90%;
         height: auto;
