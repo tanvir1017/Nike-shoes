@@ -67,8 +67,7 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 20px;
 }
 .horizental-card img
-{
-    
+{ 
     width: 72px;
     height: auto;
 }
@@ -87,4 +86,12 @@ h1, h2, h3, h4, h5, h6{
 .modal-img{
     width: 200px;
     display: block;
+}
+@media screen and (max-width:668px) {
+    .horizental-card{
+        width: 80%;
+        height: 120px;
+        padding: 20px;
+        border-radius: 20px;
+    }    
 }
