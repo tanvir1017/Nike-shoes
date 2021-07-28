@@ -21,11 +21,6 @@ h1, h2, h3, h4, h5, h6{
 .head-image{
     width: 470px;
 }
-.head-teaser {
-    width: 377px;
-    color: #4d4d4d;
-    font-weight: 400;
-}
 .my-btn{
     padding: 10px 35px;
     font-size: 18px ;
@@ -94,11 +89,6 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (max-width:668px) {
     header{
         width: 100%;
-    }
-    .head-teaser {
-        width: 80%;
-        color: #4d4d4d;
-        font-weight: 400;
     }
     .horizental-card{
         width: 90%;
