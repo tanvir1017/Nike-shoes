@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -37,8 +38,6 @@ h1, h2, h3, h4, h5, h6{
 }
 .my-card
 {
-    width: 350px;
-    height: 500px;
     border-radius: 20px;
     padding: 18px;
 }
@@ -60,15 +59,14 @@ h1, h2, h3, h4, h5, h6{
     height: auto;
 }
 .horizental-card{
-    width: 490px;
-    height: 120px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
+    margin-top: 25px;
 }
 .horizental-card img
 { 
     width: 72px;
-    height: auto;
+    height: 67px;
 }
 .toggole-btn{
     box-shadow: none !important;
@@ -87,20 +85,6 @@ h1, h2, h3, h4, h5, h6{
     display: block;
 }
 @media screen and (max-width:668px) {
-    header{
-        width: 100%;
-    }
-    .horizental-card{
-        width: 100%;
-        height: auto;
-        padding: 20px;
-        border-radius: 20px;
-    }
-    .horizental-card img{
-        width: 58px;
-        height: 45px;
-        align-items: center;
-    }
     .logo img{
         Width :221.11px;
         Height: 39.27px;
