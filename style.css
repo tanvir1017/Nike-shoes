@@ -1,6 +1,10 @@
 /* @font-collection  */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 /* @font-collection  */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -90,6 +94,11 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (max-width:668px) {
     header{
         width: 100%;
+    }
+    .head-teaser {
+        width: 100%;
+        color: #4d4d4d;
+        font-weight: 400;
     }
     .horizental-card{
         width: 90%;
