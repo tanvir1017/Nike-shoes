@@ -89,9 +89,21 @@ h1, h2, h3, h4, h5, h6{
 }
 @media screen and (max-width:668px) {
     .horizental-card{
-        width: 100%;
+        width: 90%;
         height: auto;
         padding: 20px;
         border-radius: 20px;
-    }    
+    }
+    .horizental-card img{
+        width: 58px;
+        height: 45px;
+        align-items: center;
+    }
+    .logo img{
+        Width :221.11px;
+        Height: 39.27px;
+    }
+    ul{
+        margin-top: 30px;
+    }
 }
